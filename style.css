@@ -1,0 +1,367 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 21px;
+  color: rgb(254, 240, 240);
+  background-color: #040a02;
+  text-align: left;
+  background-image: url(./bg_web_1366x768px.png);
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  -webkit-transition: 2s opacity;
+  -moz-transition: 2s opacity;
+  -ms-transition: 2s opacity;
+  -o-transition: 2s opacity;
+  transition: 2s opacity;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  left: 0px;
+  font-family: "Lato", sans-serif;
+  font-size: 0.65em;
+  text-shadow: 1px 0px 0px #061317;
+}
+
+h2 {
+  font-size: 21px;
+}
+.logo {
+  margin-top: 10px;
+  margin-left: 70px;
+  position: absolute;
+}
+.logo img {
+  width: 75%;
+}
+
+section {
+  width: 100%;
+  background-color: #061317;
+  padding: 25px;
+  border-radius: 4px;
+  margin-top: 60px;
+  margin-left: 50px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Domine:wght@500;600&family=Lato:wght@400;700&display=swap");
+
+.form__field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border: 2px solid #caff32;
+  outline: 0;
+  border-radius: 8px;
+  font-size: 13px;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+}
+
+.form__field::placeholder {
+  color: #6f7c7e;
+  font-size: 13px;
+  padding-left: 10px;
+  border-radius: 8px;
+}
+
+.form__field:focus {
+  /* padding-bottom: 6px; */
+  border: 2px solid #caff32;
+  /* padding-left: 10px; */
+  border-radius: 8px;
+  padding-left: 10px;
+}
+
+b {
+  color: #fff;
+}
+
+.obg {
+  font-size: 0.8em;
+  color: #caff32;
+  margin: 5px;
+  float: right;
+  padding-bottom: 10px;
+}
+
+button {
+  background-color: #caff32;
+  padding: 7px;
+  outline: 0;
+  border: 0;
+  margin-top: 5px;
+  border-radius: 3px;
+}
+
+.agradecimento {
+  font-size: 1.2em;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  width: 65%;
+  font-family: "Lato", sans-serif;
+  font-size: 0.65em;
+  text-shadow: 1px 0px 0px #061317;
+}
+.banner {
+  margin-left: 50px;
+  margin-top: 10px;
+  width: 90%;
+  text-align: left;
+  border-radius: 8px;
+  border: 2px solid #caff32;
+  padding: 10px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 5px;
+  height: auto;
+}
+.container {
+  width: 100%;
+  line-height: 35px;
+}
+.button2 {
+  background-color: #caff32;
+  padding: 10px;
+  outline: 0;
+  float: right;
+  border: 0;
+  margin: 1px;
+  border-radius: 3px;
+}
+.arrow {
+  margin-left: 20px;
+  width: 20%;
+}
+
+menu {
+  width: 100%;
+  border: 0;
+  border: 2px solid #caff32;
+  outline: 0;
+  height: 30px;
+  justify-content: space-around;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+}
+.inputduvida {
+  font-family: inherit;
+  width: 83%;
+  border: none;
+  outline: 0;
+  font-size: 13px;
+  color: white;
+  line-height: 20px;
+  padding: 5px;
+  background: transparent;
+}
+.inputduvida::placeholder {
+  color: #6f7c7e;
+  font-size: 13px;
+  padding-left: 3px;
+}
+.inputduvida:focus {
+  border-radius: 8px;
+  padding-left: 10px;
+}
+
+.btnduvida {
+  margin-top: -1px;
+  float: right;
+  font-size: 13px;
+  color: black;
+  padding: 3px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+    display: none;
+    position: absolute;
+    top: 160px;
+    right: 305px;
+    z-index: 9;
+  }
+  .form-container {
+    max-width: 400px;
+    padding: 15px;
+    background-color: white;
+  }
+.form-popup img {
+    width: 100%;
+    height: 100%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+@media screen and (max-width: 465px) {
+    body {
+      background-image: url(./bg_mobile_1440x2560px.png);
+      background-size: cover;
+      background-color: #040a02;
+    }
+    main {
+      font-size: 0.8em;
+      width: 100%;
+    }
+  
+    section {
+      margin-top: 150px;
+      margin-left: 10px;
+    }
+    .logo {
+      margin-top: 50px;
+      position: absolute;
+      margin-left: 20px;
+    }
+    .logo img {
+      width: 100%;
+    }
+    footer {
+      width: 100%;
+    }
+    .banner {
+      margin-left: 20px;
+      margin-top: 20px;
+      width: 100%;
+      text-align: justify;
+    }
+    .form-popup {
+      display: none;
+      position: absolute;
+      top: 260px;
+      right: 10px;
+      border: 3px solid #f1f1f1;
+      z-index: 9;
+    }
+    .form-container {
+      max-width: 400px;
+      padding: 10px;
+      background-color: white;
+    }
+  }
+
+/* @media screen and (max-width: 420px) {
+  body {
+    background-image: url(./imagens/bg_mobile_1440x2560px.png);
+    background-size: cover;
+    background-color: #040a02;
+  }
+  main {
+    font-size: 0.8em;
+    width: 80%;
+  }
+
+  section {
+    margin-top: 150px;
+    margin-left: 10px;
+  }
+  .logo {
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 20px;
+  }
+  .logo img {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
+  .banner {
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 100%;
+    text-align: justify;
+  }
+  .button2 {
+    background-color: #caff32;
+    padding: 10px;
+    outline: 0;
+    margin-left: -140px;
+    position: absolute;
+    border: 0;
+    margin-top: 25px;
+    border-radius: 3px;
+  }
+} */
+@media screen and (max-width: 900px) {
+  body {
+    background-image: url(./bg_mobile_1440x2560px.png);
+    background-size: cover;
+    background-color: #040a02;
+  }
+  main {
+    font-size: 0.8em;
+    width: 98%;
+  }
+
+  section {
+    margin-top: 150px;
+    margin-left: 10px;
+  }
+  .logo {
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 20px;
+  }
+  .logo img {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
+  .banner {
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 100%;
+    text-align: justify;
+  }
+
+}
+@media screen and (max-width: 770px) {
+    .button2 img {
+        width: 10%;
+    }
+    .form-popup {
+      display: none;
+      position: absolute;
+      top: 360px;
+      right: 0px!important;
+      border: 3px solid #f1f1f1;
+      z-index: 9;
+    }
+}
+@media screen and (max-width: 300px) {
+    body {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 19px;
+    }
+    section {
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 1275px) {
+  .form-popup {
+    display: none;
+    position: absolute;
+    top: 360px;
+    right: 0px!important;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  .inputduvida {
+    width: 83.5%;
+  }
+}
