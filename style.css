@@ -4,7 +4,7 @@ body {
   color: rgb(254, 240, 240);
   background-color: #040a02;
   text-align: left;
-  background-image: url(./bg_web_1366x768px.png);
+  background-image: url(./imagens/bg_web_1366x768px.png);
   opacity: 1;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -206,7 +206,7 @@ a {
 }
 @media screen and (max-width: 465px) {
     body {
-      background-image: url(./bg_mobile_1440x2560px.png);
+      background-image: url(./imagens/bg_mobile_1440x2560px.png);
       background-size: cover;
       background-color: #040a02;
     }
@@ -296,7 +296,7 @@ a {
 } */
 @media screen and (max-width: 900px) {
   body {
-    background-image: url(./bg_mobile_1440x2560px.png);
+    background-image: url(./imagens/bg_mobile_1440x2560px.png);
     background-size: cover;
     background-color: #040a02;
   }
